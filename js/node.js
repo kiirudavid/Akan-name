@@ -32,14 +32,11 @@
 
 
 
-
 function akan(){
     var d = new Date();
-
     var date = parseInt(document.getElementById("day").value);
     var month = parseInt(document.getElementById("month").value) - 1;
     var year = parseInt(document.getElementById("year").value);
-
     if (day < 0 || day > 31) {
         document.getElementsByClassName("dayerror").innerHtml = "Enter valid date";
         return false;
@@ -49,7 +46,6 @@ function akan(){
     } else {
         d.setDate(date);
     }
-
     if (month < 0 || day > 12) {
         document.getElementsByClassName("montherror").innerHtml = "Enter valid month";
         return false;
@@ -59,7 +55,6 @@ function akan(){
     } else {
         d.setMonth(month);
     }
-
     if (year < 0) {
         document.getElementsByClassName("yearerror").innerHtml = "Enter valid year";
         return false;
@@ -69,13 +64,10 @@ function akan(){
     } else {
         d.setYear(year);
     }
-
     var day = d.getDay();
     var days = ['sunday', 'monday', "tuesday", "wednesday", "thursday", "friday", "saturday"]
     var male = ["Kwasi", " Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     var female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-
-
 function getAkan() {
     var ismale = document.getElementById('male').checked;
     var isfemale = document.getElementById('female').checked;
@@ -102,7 +94,6 @@ function getAkan() {
         else if (day == 6) {
             alert("your name is " + male[6]);
         }
-
     } else if (ismale == false && isfemale == true) {
         if (day == 0) {
             // return male[0];

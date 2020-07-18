@@ -1,3 +1,4 @@
+/* STYLING THE FORM PART*/
 .form{
     background-image: url(https://images.unsplash.com/photo-1591933319095-9bc25b14b0b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
     background-repeat: no-repeat;
@@ -7,6 +8,7 @@
     margin: 2px;
     opacity: 1;
 }
+/* STYLING THE BODY PART*/
 body{
     background-color: rgb(182, 171, 171);
     background-repeat: no-repeat;
