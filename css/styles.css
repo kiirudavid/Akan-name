@@ -36,3 +36,7 @@ h3{
 .description{
     color: yellow;
 }
+#copyright{
+    text-align: center;
+    float: center;
+}
