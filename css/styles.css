@@ -40,3 +40,10 @@ h3{
     text-align: center;
     float: center;
 }
+h1{
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 2px 2px rgb(71, 204, 30);
+}
