@@ -8,7 +8,7 @@
     opacity: 1;
 }
 body{
-    background-color: sienna;
+    background-color: rgb(182, 171, 171);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -39,6 +39,8 @@ h3{
 #copyright{
     text-align: center;
     float: center;
+    font-style: italic;
+    font-size: 15px;
 }
 h1{
     font-style: normal;
